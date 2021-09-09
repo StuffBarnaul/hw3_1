@@ -1,3 +1,4 @@
+import React from "react";
 import './App.css';
 import ClassComponent from "./video1/ClassComponent";
 import FunctionComponent from "./video1/FunctionComponent";
