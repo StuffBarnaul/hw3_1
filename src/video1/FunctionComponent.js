@@ -6,7 +6,7 @@ function FunctionComponent(props) {
 
     const [q1, setQ1] = useState(0)
 
-    useEffect((props) => {
+    useEffect(() => {
         console.log('useEffect')
     }, [q1])
 
@@ -18,6 +18,7 @@ function FunctionComponent(props) {
 
     return(
         <>
+            <div className={"App-link"}>Video1 - Function Component</div>
             <div>
                 <button onClick={handler}>Button</button>
             </div>

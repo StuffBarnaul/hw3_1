@@ -31,6 +31,7 @@ class ClassComponent extends Component {
     render() {
         return (
             <>
+                <div className={"App-link"}>Video1 - Class Component</div>
                 <div>
                     <button onClick={this.handler}>Button</button>
                 </div>
